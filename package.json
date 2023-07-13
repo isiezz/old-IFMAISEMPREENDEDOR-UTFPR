@@ -1,0 +1,26 @@
+{
+  "name": "ifmaisempreendedor-utfpr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isiezz/IFMAISEMPREENDEDOR-UTFPR.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isiezz/IFMAISEMPREENDEDOR-UTFPR/issues"
+  },
+  "homepage": "https://github.com/isiezz/IFMAISEMPREENDEDOR-UTFPR#readme",
+  "dependencies": {
+    "next": "^13.4.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
