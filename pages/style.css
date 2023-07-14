@@ -1,0 +1,48 @@
+:root {
+    --Concrete: #F0F0F0;
+    --Carnation: #F45050;
+    --Chateau-Green: #389A4C;
+    --Fiord: #3C486B;
+    --Mustard: #F9D949;
+    --Ship-Gray: #414142;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    transition: all .50s ease;
+}
+
+.IF-logo {
+    background: url('../images/IF\ logo.png') no-repeat;
+    color: transparent;
+    display: block;
+    width: 76.111px;
+    height: 100px;
+    padding: 25px 1976.99px 0 50px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    color: #389A4C;
+    font-family: Bebas Neue;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px 80px;
+    transition: all .50s ease;
+}
