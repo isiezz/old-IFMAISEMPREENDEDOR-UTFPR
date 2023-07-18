@@ -1,0 +1,142 @@
+:root {
+  --Concrete: #F0F0F0;
+  --Carnation: #F45050;
+  --Chateau-Green: #389A4C;
+  --Fiord: #3C486B;
+  --Mustard: #F9D949;
+  --Ship-Gray: #414142;
+  --Background: #EDE9DF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--Background);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+/* body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #121212 !important;
+  color: #fff !important;
+  font-family: 'Centra', sans-serif !important;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+p,
+a,
+li,
+button,
+ul {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+@media (min-width:1700px) {
+  main .container {
+    max-width: 100%;
+    padding: 0 150px;
+  }
+}
+
+p.success {
+  color: green;
+}
+
+p.danger {
+  color: red;
+}
+
+
+
+
+/* NAVBAR */
+
+nav.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 8vw;
+  z-index: 9999;
+  transition: 0.3s ease-in-out;
+}
+
+nav.navbar a.navbar-brand {
+  width: 60px;
+}
+
+#basic-navbar-nav {
+  margin-right: -12vw;
+}
+
+nav.navbar .navbar-nav .nav-link.navbar-link {
+  color: var(--Chateau-Green);
+  font-family: Bebas Neue;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0 33px;
+}
+
+nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
+nav.navbar .navbar-nav a.nav-link.navbar-link.active {
+  color: #46b45c;
+}
+
+span.navbar-text {
+  display: flex;
+  align-items: center;
+}
+
+.instagram-projeto {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.instagram-projeto a img {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  z-index: 1;
+  transition: 0.3s ease-in-out;
+}
